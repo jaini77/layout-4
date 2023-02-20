@@ -7,14 +7,16 @@ body{
     background-color: #2b2e33;
 }
 .logo_icon img{
-    width: 50%; 
+    width: 250px; 
     align-items: center;
 }
 .txt_address{
     background-color: #fff;
+    position:absolute;
+    font-size: large;
 }
 .thrid_div{
-    background-color: #f8f8f8;
+    background-color: #96919125;
 }
 /* Section CSS */
 .section_main_img{
@@ -27,8 +29,8 @@ body{
 }
 .section_main_img_txt{
     color: white;
-    width: 80%;
-    background-color:  #1979ada5;
+    width: 100%;
+    background-color:  #2176d1a5;
     padding: 5%;
     text-align: left;
     position:fixed
@@ -60,12 +62,13 @@ body{
     margin-left: 10%;
 }
 .section_main_img_txt h3 strong{
-    color: #e61f84;
+    color: #ec0d7c;
 }
 .section_main_img_div{
-    background-color: #e61f84;
+    background-color: #ed0e7e;
     opacity: 50%;
-    margin-bottom: 25%;
+    margin-bottom:400px;
+
 }
 /* About our company Part CSS */
 .about_our{
@@ -73,7 +76,7 @@ body{
     background-color: #f8f8f8;
 }
 .about_our_heading{
-    border-left: 8px solid #e61f84;
+    border-left: 8px solid #f1037a;
 }
 /* About us company CSS */
 .about_us{
@@ -88,7 +91,7 @@ body{
     height: 100%;
 }
 .fast_replay h6,.file_mangment h6,.documentation h6{
-    color: #e61f84;
+    color: #f00d7e;
 }
 /* Footer CSS */
 .footer{
