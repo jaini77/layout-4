@@ -12,9 +12,11 @@ body{
 }
 .txt_address{
     background-color: #fff;
-    position:absolute;
+    position:inherit;
     font-size: large;
-}
+    margin-right: -30px;
+margin-left: 30px;}
+    
 .thrid_div{
     background-color: #96919125;
 }
@@ -39,6 +41,7 @@ body{
 }
 .section_main_img_txt h4{
     margin-left: 10%;
+    font-size: xx-large;
 }
 .section_main_img_txt hr{
     width: 15%;
@@ -85,6 +88,11 @@ body{
 }
 .fast_replay img,.file_mangment img,.documentation img{
     width: 10%;
+    
+}
+.fast_replay p,.file_mangment p,.documentation p{
+    text-align: justify;
+    margin-right: 50px;
 }
 .fast_replay,.file_mangment{
     border-right: 1px solid #d9dbdf;
@@ -98,17 +106,26 @@ body{
     background-color: #2b2e33;
     color: white;
     text-transform: uppercase;
-    padding: 3%;
+    padding: 5%;
 }
-.footer_icon2 hr,.footer_hr hr{
+.footer_icon2 hr{
     background-color: white;
     width: 10%;
     padding: 0.5%;
     margin-left: -0.5%;
-    margin-bottom: -1%;
+    margin-bottom: -2%;
 }
+.footer_hr hr{
+    background-color: white;
+    width: 15%;
+    padding: 1%;
+    margin-left: -1%;
+    margin-bottom: -3%;
+}
+
 .footer_icon2{
     margin-top: -1%;
+   
 }
 
     
